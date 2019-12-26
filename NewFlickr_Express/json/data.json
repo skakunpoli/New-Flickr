@@ -1,0 +1,62 @@
+{
+	"Users":
+	[
+		{
+			"id": "1",
+			"name": "Пользователь1",
+			"email": "user1@mmf.by",
+			"password": "qwerty123",
+			"photos":
+			[
+				{
+					"name": "picture1.jpg",
+					"time": "18:34",
+      			"date": "8 июля 2019",
+      			"likes": "2"
+				},
+				{
+					"name": "picture2.jpg",
+					"time": "21:20",
+      			"date": "27 cентября 2019",
+      			"likes": "10"
+				}
+			]
+		},
+		{
+			"id": "2",
+			"name": "Пользователь2",
+			"email": "user2@mmf.by",
+			"password": "qwerty123",
+			"photos":
+			[
+				{
+					"name": "picture3.jpg",
+					"time": "23:50",
+			      "date": "28 мая 2019",
+      			"likes": "0"
+				}
+			]
+		},
+		{
+			"id": "3",
+			"name": "Пользователь3",
+			"email": "user3@mmf.by",
+			"password": "qwerty123",
+			"photos":
+			[
+				{
+					"name": "picture4.jpg",
+					"time": "13:00",
+			      "date": "4 февраля 2019",
+      			"likes": "15"
+				},
+				{
+					"name": "picture5.jpg",
+					"time": "18:00",
+			      "date": "9 июня 2019",
+      			"likes": "100"
+				}
+			]
+		}
+	]
+}

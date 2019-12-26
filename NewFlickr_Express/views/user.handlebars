@@ -1,0 +1,21 @@
+<h1 align="center">Users</h1>
+<div style="width: 50%; margin: 0 auto; text-align: center;">
+{{#each ids}}
+<a href="/users/{{this}}"><button style="margin-left: 10px; margin-right: 10px;">User {{this}}</button></a>
+{{/each}}
+</div>
+<h3 align="center">User {{userId}}</h3>
+<div style="width: 50%; margin: 0 auto; text-align: center;">
+{{#each users as |user|}}
+{{#if_eq ../userId user.id}}
+<p>
+{{user.name}} : {{user.email}}, {{user.password}}
+<br/>
+{{#each user.photos as |photo|}}
+{{photo.name}}, {{photo.time}}, {{photo.date}}, {{photo.likes}}
+<br/>
+{{/each}}
+</p>
+{{/if_eq}}
+{{/each}}
+</div>
